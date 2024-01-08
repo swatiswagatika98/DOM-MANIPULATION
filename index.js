@@ -1,13 +1,11 @@
-const ul =document.getElementsByClassName("fruits")[0];
-const thirdEle  = ul.children[2];
-thirdEle.style.backgroundColor="yellow";
-// ul.style.fontWeight = "bold";
-// ul.children.forEach(ele=>{
-    //ele.style.fontWeight = "bold"
-// })
-const lis =document.getElementsByClassName("fruit");
-console.log(lis)
-for (const ele of lis){
-  console.log(ele)
-     ele.style.fontWeight = "bold"  
+var heading = document.querySelector('#basket-heading');
+heading.style.color = 'brown';
+var item = document.querySelectorAll(".fruit")
+var item = document.querySelectorAll(".fruit")
+var even = document.querySelectorAll("li:nth-child(even)")
+for(let i=0;i<even.length;i++){
+    even[i].style.backgroundColor = 'brown';
+    even[i].style.color = 'white';
 }
+
+
