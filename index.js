@@ -1,7 +1,15 @@
-const lis = document.getElementsByTagName("li");
-const mangoLi = lis[4];
-mangoLi.style.color = "blue";
-for(const Li of lis){
-    console.log(Li)
-    Li.style.fontStyle = "italic"
-}
+body {
+    font-family: sans-serif;
+    -webkit-font-smoothing: auto;
+    -moz-font-smoothing: auto;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: auto;
+    text-rendering: optimizeLegibility;
+    font-smooth: always;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+  }
